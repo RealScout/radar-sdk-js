@@ -4,6 +4,7 @@
   "description": "Web Javascript SDK for Radar, location infrastructure for mobile and web apps.",
   "homepage": "https://radar.com",
   "type": "module",
+  "main": "dist/radar.js",
   "module": "dist/radar.js",
   "types": "dist/index.d.ts",
   "style": "dist/radar.css",
@@ -54,7 +55,8 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@types/geojson": "^7946.0.10"
+    "@types/geojson": "^7946.0.10",
+    "postcss": "^8.5.6"
   },
   "peerDependencies": {
     "maplibre-gl": "^2.4.0 || ^3.0.0 || ^4.0.0 || ^5.0.1"
